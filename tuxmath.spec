@@ -8,7 +8,7 @@
 
 Summary:	Math game for kids with Tux
 Name:		tuxmath
-Version:	1.7.0
+Version:	1.7.2
 Release:	%{mkrel 1}
 # have to change with each new release as the number after download.php changes :(
 Source0:	http://alioth.debian.org/frs/download.php/2684/%{fname}-%{version}.tar.gz
@@ -84,6 +84,7 @@ rm -rf %{buildroot}
 %doc AUTHORS ChangeLog README
 %{_gamesbindir}/%{name}
 %{_gamesbindir}/%{name}admin
+%{_gamesbindir}/generate_lesson
 %{_gamesdatadir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
