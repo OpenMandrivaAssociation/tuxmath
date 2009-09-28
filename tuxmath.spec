@@ -9,7 +9,7 @@
 Summary:	Math game for kids with Tux
 Name:		tuxmath
 Version:	1.7.2
-Release:	%{mkrel 1}
+Release:	%{mkrel 2}
 # have to change with each new release as the number after download.php changes :(
 Source0:	http://alioth.debian.org/frs/download.php/2684/%{fname}-%{version}.tar.gz
 URL:		http://alioth.debian.org/frs/?group_id=31080
