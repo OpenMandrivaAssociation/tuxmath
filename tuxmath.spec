@@ -21,6 +21,7 @@ BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_Pango-devel
 BuildRequires:	SDL_net-devel
+BuildRequires:	librsvg-devel
 BuildRequires:	imagemagick
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
