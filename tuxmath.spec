@@ -8,10 +8,10 @@
 
 Summary:	Math game for kids with Tux
 Name:		tuxmath
-Version:	1.9.0
+Version:	2.0.3
 Release:	%mkrel 1
 # have to change with each new release as the number after download.php changes :(
-Source:		http://alioth.debian.org/frs/download.php/3470/%{fname}-%{version}.tar.gz
+Source:		http://alioth.debian.org/frs/download.php/3571/%{fname}-%{version}.tar.gz
 URL:		http://alioth.debian.org/frs/?group_id=31080
 License:	GPLv3+
 Group:		Games/Other
@@ -22,10 +22,8 @@ BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_Pango-devel
 BuildRequires:	SDL_net-devel
 BuildRequires:	librsvg-devel
+BuildRequires:	pkgconfig(t4k_common)
 BuildRequires:	imagemagick
-BuildRequires:	libt4k_common-devel
-Requires:	t4k_common
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description 
 "Tux, of Math Command" ("TuxMath", for short) is an educational arcade
@@ -83,3 +81,31 @@ rm -rf %{buildroot}
 %{_gamesdatadir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
+
+
+%changelog
+* Fri Dec 24 2010 Jani Välimaa <wally@mandriva.org> 1.9.0-1mdv2011.0
++ Revision: 624614
+- new version 1.9.0
+- fix license
+- drop support for old and unsupported mdv releases
+
+* Fri Sep 24 2010 Funda Wang <fwang@mandriva.org> 1.8.0-1mdv2011.0
++ Revision: 580865
+- BR rsvg
+- BR SDL_net
+- new version 1.8.0
+
+* Mon Sep 28 2009 Antoine Ginies <aginies@mandriva.com> 1.7.2-2mdv2010.0
++ Revision: 450503
+- bump release
+
+* Sun May 10 2009 Frederik Himpe <fhimpe@mandriva.org> 1.7.2-1mdv2010.0
++ Revision: 374066
+- Update to new version 1.7.2
+
+* Sat Jan 03 2009 Adam Williamson <awilliamson@mandriva.org> 1.7.0-1mdv2009.1
++ Revision: 323565
+- import tuxmath
+
+

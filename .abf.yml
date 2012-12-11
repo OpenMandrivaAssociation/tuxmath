@@ -1,2 +1,4 @@
+removed_sources:
+  tuxmath_w_fonts-1.9.0.tar.gz: 31c1b6160cf92ff425230dedb1ddb44aa56b61ce
 sources:
-  "tuxmath_w_fonts-1.9.0.tar.gz:"	31c1b6160cf92ff425230dedb1ddb44aa56b61ce
+  tuxmath_w_fonts-2.0.3.tar.gz: 74510bc342d6cefb6dae101cfc8c1207f29d7db9
