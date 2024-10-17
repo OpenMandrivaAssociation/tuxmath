@@ -12,7 +12,7 @@ Version:	2.0.3
 Release:	2
 # have to change with each new release as the number after download.php changes :(
 Source:		http://alioth.debian.org/frs/download.php/3571/%{fname}-%{version}.tar.gz
-URL:		http://alioth.debian.org/frs/?group_id=31080
+URL:		https://alioth.debian.org/frs/?group_id=31080
 License:	GPLv3+
 Group:		Games/Other
 BuildRequires:	pkgconfig(sdl)
