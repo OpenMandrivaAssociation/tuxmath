@@ -15,6 +15,11 @@ Source:		http://alioth.debian.org/frs/download.php/3571/%{fname}-%{version}.tar.
 URL:		https://alioth.debian.org/frs/?group_id=31080
 License:	GPLv3+
 Group:		Games/Other
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(sdl)
 BuildRequires:	pkgconfig(SDL_ttf)
 BuildRequires:	pkgconfig(SDL_mixer)
